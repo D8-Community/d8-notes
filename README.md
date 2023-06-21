@@ -1,6 +1,9 @@
-# MarkEdit
+# D8 Notes
 
-> Full-featured, open-source Markdown editor.
+> Full-featured, open-source Notes Markdown editor.
+
+You will need Python 2.7 to self host D8 Notes
+
 
 https://notes.7erver.com/
 
@@ -8,6 +11,8 @@ https://notes.7erver.com/
 ### Build
 
 ```bash
+# Install Python 2.7 using PyENV
+
 # Install nvm - go to https://github.com/nvm-sh/nvm for more info
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
