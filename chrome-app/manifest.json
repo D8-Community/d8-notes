@@ -1,0 +1,46 @@
+{
+  "name": "D8Notes",
+  "description": "In-browser Notes",
+  "version": "1.0.13",
+  "manifest_version": 2,
+  "container": "GOOGLE_DRIVE",
+  "api_console_project_id": "d8me-389905",
+  "icons": [
+    {
+      "src": "assets/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "app": {
+    "urls": [
+      "https://notes.7erver.com/"
+    ],
+    "launch": {
+      "web_url": "https://notes.7erver.com/app"
+    }
+  },
+  "offline_enabled": true,
+  "permissions": [
+    "unlimitedStorage"
+  ]
+}
