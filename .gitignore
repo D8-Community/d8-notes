@@ -9,3 +9,4 @@ stackedit_v4
 chrome-app/*.zip
 /test/unit/coverage/
 .vercel
+.env
